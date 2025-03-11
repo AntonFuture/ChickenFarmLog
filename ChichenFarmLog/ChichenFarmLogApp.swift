@@ -4,7 +4,6 @@ import SwiftUI
 struct ChichenFarmLogApp: App {
 
     @AppStorage("wasOnboarded") var wasOnboarded: Bool = false
-    
     @State private var didLoad: Bool = false
     
     var body: some Scene {
